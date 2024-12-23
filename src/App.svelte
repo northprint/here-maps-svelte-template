@@ -7,7 +7,6 @@
 
   let maspRef: HTMLElement;
   let map: H.Map | null = null;
-  //let ui = $state();
 
   onMount(() => {
     const platform = new H.service.Platform({
